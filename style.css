@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image:url('image/9.jpeg') ;
+    display: flex; 
+    background-size:cover ;
+    height:700px;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    opacity: 90%;
+    width: 100%; 
+} 
+
+.flower > img{
+    width: 20em;
+    height: 15em;
+    border-radius:15px ;
+    box-shadow: 5px 0px 10px rgb(175, 173, 173);
+    transition: transform 0.75s ;
+
+}
+
+p :hover{
+    transform: scale(1.1, 1.1);
+}
+
+.premiereligne {
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ article{
+    background-color: bisque;
+    padding-top: 20px;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+ }
+
+ .flower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    font-weight: bold;
+ }
+ 
+footer{
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 600px;
+    list-style-type: none;
+}
+.social{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.social > a >img {
+    width: 46px;
+    height: 46px;
+}
+   
